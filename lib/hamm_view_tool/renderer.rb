@@ -1,6 +1,6 @@
 module HAMMViewTool
   class Renderer
-    def self.copyrighht name, message
+    def self.copyright name, message
       "&copy; #{Time.now.year} | <b>#{name}</b> #{message}".html_safe
     end
   end
